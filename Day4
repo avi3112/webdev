@@ -1,0 +1,113 @@
+Q.1 Explain Hoisting in JavaScript?
+Answer >>Hoisting helps us extract values of variable,function even before initialising them, and this happens due to the memory creation.the 1st phase of execution context.
+//
+getName();
+console.log(x)
+var x = 7;
+function getName(){
+console.log("hello avinabh"); }
+//
+In above code output will be below:
+>> hello avinabh
+>> undefined
+Note: a variable can be used before it has been declared
+Ex: we can call function before it has been declared
+We can invoke the function before initialising the function.
+
+
+
+Q.2 Explain Temporal Dead Zone?
+Answer >> it basically means the process from hoisting to till the value assigned to varible.
+
+
+Q.3 Difference between var & let?
+Answer >>let  can be access only after intialisation, where as var we can access even before intialition and we will get "undefined”.
+var is hoisted, whereas let is temporal dead zone.
+
+
+Q.4 What are the major features introduced in ECMAScript 6?
+Answer >> ES6 introduced several key features like const, let, arrow functions, template literals, default parameters.
+
+
+ Q.5 What is the difference between let and const ?
+Answer >> We can change the value of let later where as const value we will not be able to change later.
+
+ Q.6 What is template literals in ES6 and how do you use them?
+Answer >> It provides an easy way to create multiline strings and perform string interpolation, we use `` to define the template literals.
+
+Q.7 What’s difference between map & forEach?
+
+Answer >> map returns the value where as ForEach not return the value, it gives undefined
+
+>> for map
+
+ let data = [1,2,3,4,5,6]
+
+let result = data.map((item)=>{
+    return item*2
+ })
+
+ console.log(result)
+
+>>  for each willl give undefined
+
+
+let data1= [5,4,3,2,1]
+
+let result = data1.forEach((val)=>{
+    return val*2
+})
+
+console.log(result)
+
+let arr =[1,2,3,4,5,6]
+
+
+const test5= arr.map((a)=>{
+    console.log(a)
+})
+
+console.log(test5)
+
+
+const test2= arr.forEach((a)=>{
+    console.log(a)
+})
+
+console.log(test2)
+
+
+
+Q.8 How can you destructure objects and arrays in ES6?
+Answer >>
+var arr = ["Hello", "World"]  
+  
+// destructuring assignment  
+var [first, second] = arr;  
+  
+console.log(first); // Hello  
+console.log(second); // World 
+
+
+
+Q.9 How can you define default parameter values in ES6 functions?
+
+Answer >> While declaring the parameter we can assign some value by default, however it also provide to change the value later on.
+
+
+
+ Q.10 What is the purpose of the spread operator (...) in ES6?
+Answer >>
+
+// spread 
+
+
+let breakfast= ["roti","sabji","dal","milk"]
+
+function x(a){
+    console.log(a)
+}
+
+x(...breakfast)
+
+// here we are taking argument
