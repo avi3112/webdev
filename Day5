@@ -1,0 +1,106 @@
+Q.1 What’s difference between Synchronous and Asynchronous?
+Answer: 
+synchronous execute the code line by line.
+asynchronous wait where code taking time and other code will get execute.
+
+difference way to deal with asynchronous code.
+a) useCallback
+b) promise
+c) Async and await
+
+Q.2 What are Web Apis ?
+Answer: 
+API stands for Application Programming Interface.It can extend the functionality of the browser, we use below api on browser.
+Console.log
+SetTimeOut
+setInterval
+
+
+
+Q.3 Explain SetTimeOut and setInterval ?
+Answer:
+SetTimeOut >> it will execute the code after the time once
+function x(){
+    var x=1;
+
+    setTimeout(()=>{
+        console.log(x)
+    },5000)
+    console.log("namaste")
+}
+
+x()
+
+setInterval >> it will execute the code after every time interval, like every 1 second will get executed
+
+function x(){
+    var a=1
+
+    setInterval(()=>{
+        console.log(a)
+    },1000)
+}
+
+x()
+
+
+Q.4 how can you handle Async code in JavaScript ?
+Answer:
+difference way to handle with asynchronous code.
+a) Callback
+b) promise
+c) Async and await
+
+
+Q.5 What are Callbacks & Callback Hell ?
+Answer: 
+Callbackis basically methods that are passed as the parameters to the other function. 
+Callback hell is a phenomenon that happens when multiple callbacks are nested on top of each other.
+We can avoid callback hell using promises and async await.
+
+
+Q.6 What are Promises & Explain Some Three Methods of Promise
+Answer: 
+Promises are useful when you have to handle more than one asynchronous task, one after another. For that, we use promise chaining. You can perform an operation after a promise is resolved using methods then() , catch() and finally() .
+There are 3 three states of promises
+1>pending
+2> fulfilled
+3> rejected
+
+
+
+Q.7 What’s async & await Keyword in JavaScript?
+Answer: 
+
+We use async & await Keyword in JavaScript to handle the asynchronous task.
+
+
+Q.8 Explain Purpose of Try and Catch Block & Why do we need it?
+Answer: 
+
+We use Try and Catch Block to handle incase if any unexpected	error in the code.
+
+
+Q.9 Explain fetch?
+Answer: 
+
+It basically used we need to get some data from the database and it provides the value.
+
+
+Q.10 How do you define an asynchronous function in JavaScript using async/await?
+Answer: 
+
+As per below code it will wait till its find the data from database.
+
+
+logincontroller = async (req, res) => {
+    //check user
+    const user = await userModel.findOne({ email });
+    if (!user) {
+      return res.status(404).send({
+        success: false,
+        message: "email is not register",
+      });
+    }
+}
+
