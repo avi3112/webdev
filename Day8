@@ -44,9 +44,9 @@ Note: now we are working with class component for life cycle method, bcz for fun
 
 Q.7 Explain Prop Drilling in React & Ways to avoid it
 Answer:
-
-Props Drilling basically when we send the state from parent component to there nested child component, it avoid the props drilling we use context API or 3rd part state management took like redux.
-
+Answer: when we have to sent the data from parent to child and inside child there could be many child,
+it will go through each component to reach the target child component, this process is called prop drilling.
+To avoid prop drilling we can use context api and create a centralise store or we can also use 3rd party package called redux to among the state, redux used for large scale web app.
 
 Q.8 Create a Counter Web App using React
 * Develop a web application using React that functions as a counter.
