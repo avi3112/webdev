@@ -1,0 +1,38 @@
+Q.1 What’s Box Model in CSS ?
+Answer: Box model we use when we have to style out website, CSS properties are border, margin, padding etc
+
+
+Q.2 What are the Different Types of Selectors in CSS & what are the advantages of them?
+Answer: CSS selector are used to find the html element we want to style, we can use ID,universal selector or class.
+We can style specific element we want to style and its easy to use and for the code readability purpose.
+
+
+Q.3 What is VW/VH ?
+Answer: VM belongs Relative to 1% of the width of the viewport and VH belongs Relative to 1% of the height of the viewport 
+
+Q.4 Whats difference between Inline, Inline Block and block ?
+Answer: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+Q.5 How is Border-box different from Content Box?
+Answer: content Box size remain same while border-box size grows as padding and border grow.
+
+Q.6 What’s z-index and How does it Function ?
+Answer: its define that the order of overlapping html elements.
+
+Q.7 What’s Grid & Flex and difference between them?
+Answer: Flex is it will only design row or coloulm, however grid design row and colour same time.
+
+
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+Answer: relative -the element is positioned relative to its normal position. 
+absolute - the element is positioned absolutely to its first positioned parent. 
+fixed - the element is positioned related to the browser window. 
+sticky - the element is positioned based on the user's scroll position.
+
+
+Q.9 Build Periodic Table as shown in the below image.
+Build
+
+Q.10 Build Responsive Layout both desktop and mobile and Tablet, see below image for reference ?
+
+Build
