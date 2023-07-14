@@ -1,0 +1,118 @@
+
+ Q.1 What’s Constructor And Its Purpose?
+Answer:
+
+A special method of a class in object-oriented programming that initializes a newly created object of that type. 
+Whenever an object is created, the constructor is called automatically.
+
+Q.2 Explain “this” Keyword and Its Purpose?
+Answer:
+
+It basically refers to the current object  in method.
+
+
+
+Q.3 What’s Call Apply Bind Method & Difference Between them
+Answer:
+
+>> call method
+
+// let name1= {
+//     firstname:"avinabh",
+//     lastname:"kumar",
+//     // printfullname:function(){
+//     //     console.log(this.firstname+ "" + this.lastname)
+//     // }
+// }
+
+// let printfullname= function(hometown,state){
+//         console.log(this.firstname + " " + this.lastname+ " from " +hometown +" " + state)
+//     }
+
+
+// printfullname.call(name1,"jamshedpur","jahrkahnd")
+
+// let name2= {
+//     firstname:"sachin",
+//     last:"techndulkar",
+// }
+
+// function borrow
+
+// printfullname.call(name2,"kolkata","kolkata")
+
+
+>>apply()
+
+// now lets talk about apply method
+// here we call the argument in array list this is simple
+
+
+let name1= {
+    firstname:"avinabh",
+    lastname:"kumar",
+    // printfullname:function(){
+    //     console.log(this.firstname+ "" + this.lastname)
+    // }
+}
+
+let printfullname= function(hometown,state){
+        console.log(this.firstname + " " + this.lastname+ " from " +hometown +" " + state)
+    }
+
+
+printfullname.apply(name1,["jamshedpur","jahrkahnd"])
+
+let name2= {
+    firstname:"sachin",
+    last:"techndulkar",
+}
+
+
+printfullname.apply(name2,["kolkata","kolkata"])
+
+
+
+>> bind method
+// kind of similer to call method this will give copy of function we can invoke later
+
+let test= printfullname.bind(name2,"kolkata","kolkata")
+
+test()
+
+
+Q.4 Explain OOPS ?
+Answer:
+Object-oriented programming is a core of any Programming language, which is used for designing a program using classes and objects. 
+The four pillars of object-oriented programming are data abstraction, encapsulation, inheritance, and polymorphism.
+
+
+Q.5 Whats Abstraction and Its Purpose?
+Answer:
+
+Abstraction to hide background details or any unnecessary implementation about the data so that users only see the required information.
+
+
+ Q.6 Whats Polymorphism and Purpose of it?
+Answer:
+Polymorphism describes the ability of something to have or to be displayed in more than one form. 
+
+ Q.7 Whats Inheritance and Purpose of it?
+Answer:
+The mechanism by which one object can acquire all the properties (data members) and behavior (member functions or methods) of a parent object.
+
+Q.8 Whats Encapsulation and Purpose of it ?
+Answer:
+Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.
+
+Q.9 Explain Class in JavaScript?
+Answer:
+
+Class is type of object template and Properties and methods are assigned in the constructor() method.
+
+
+Q.10 What’s Super Keyword & What it does?
+Answer:
+
+It basically refers to superclass (parent) objects. It is used to call superclass methods, and to access the superclass constructor.
+
