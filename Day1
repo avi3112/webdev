@@ -1,0 +1,40 @@
+ Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+Answer >> Its not a tag of HTML,Doctype just defines that it html to the browser.
+
+Q.2 ****Explain Semantic tags in html? And why do we need it?
+Answer >> A semantic element describes its meaning to both the browser and the developer.
+Examples of non-semantic elements: <div> and <span> =>its nothing about the content.
+Examples of semantic elements: <form> , <table> , and <article> - Clearly defines its content like it a form
+
+
+ Q.3 Differentiate between HTML Tags and Elements?
+Answer >> HTML tag has opening and closing tag and along with the content we write the tag is called element
+means : <P></P> =>> this is HTML tag
+<P>Avinabh</P> >> with content it Element
+
+ Q.4 Build Your Resume using HTML only
+https://github.com/avi3112/cv
+
+Q.5 Write HTML code so that it looks like the below image
+Build
+
+
+Q.6 What are some of the advantages of HTML5 over its previous versions?
+1> its support clients and server side also
+2> it has semantic tag
+
+
+Q.7 Create a simple Music player using html only
+Build
+
+Q.8 What is the difference between <figure> tag and <img> tag?
+Answer >> Img tag is use for insert the image on website where as figure tag is use to organise the image.
+
+
+Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+Answer> html tag is used to format and display the web app, tags are basically two type 1> opening only 2> opening and closing
+attribute basically provide the additional info about the element example of some global attributes:like > class, title, id etc
+
+ Q.10 Write Html code so that it looks like the below image
+
+Build
