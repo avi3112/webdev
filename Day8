@@ -1,0 +1,79 @@
+
+Q.1 Whats React and its pros and cons?
+Answer: 
+
+React is javascript Library, the main focus is building UI as fast as possible,  this is used for single page application,Means complete website in single page.
+React use a virtual DOM, Virtual DOM update only the required list where as Real DOM update complete List.
+
+React documentation is very poor for new developer trying to learn.
+
+
+
+Q.2 What do you understand by Virtual Dom?
+Answer: 
+
+React uses Virtual Dom it basically a representation of real Dom to check the difference and do the Dom manipulation.
+
+
+Q.3 Difference between Virtual Dom vs Real Dom?
+Answer:
+Virtual Dom is nothing but representation	of Real Dom, React uses Virtual Dom to compare with real Dom to do the Dom manipulation.
+
+
+Q.4 Whats component? Types of component?
+Answer:
+A piece of code that can be reuse. Basically we have two major type of component 1> functional component, 2> class component.
+
+
+Q.5 Difference between class & function based component?
+Answer:
+
+In class based component React has life cycle method where as to achieve life cycle method in function component we use hooks
+
+Q.6 Explain react component life cycle?
+Answer:
+
+Mounting >> componentDidMount
+
+Updating >> componentDidUpdate
+
+Unmounting >> componentWillUnmount 
+
+Note: now we are working with class component for life cycle method, bcz for function component we need hooks.
+
+
+Q.7 Explain Prop Drilling in React & Ways to avoid it
+Answer:
+
+Props Drilling basically when we send the state from parent component to there nested child component, it avoid the props drilling we use context API or 3rd part state management took like redux.
+
+
+Q.8 Create a Counter Web App using React
+* Develop a web application using React that functions as a counter.
+* Include two buttons in the UI:
+    1. "Increment" button:
+        * On clicking this button, the counter value should be incremented by one.
+    2. "Decrement" button:
+        * On clicking this button, the counter value should be decremented by one.
+* Implement the counter logic using React's state management.
+* Ensure that the counter value is displayed in the UI and updates in real-time when incremented or decremented.
+* Use appropriate React components and hooks to manage the counter state and handle button click events. </aside>
+
+
+ Q.9 Develop a GitHub User Finder web application using React The application should allow users to enter a GitHub username and display relevant information about the user, including their avatar and name. The design of the application should follow the layout provided in the image below.
+* Use Github Api to get User Data “https://api.github.com/users” </aside>
+
+
+
+Q.10 Develop a simple website using React, fetch and display products from the "https://fakestoreapi.com/products" API. The website should have the following features:
+* Fetch product data from the "https://fakestoreapi.com/products" API.
+* Display the products in a user-friendly UI.
+* Show Three products in a single row for optimal visibility and layout.
+* Use React to achieve the desired layout and functionality.
+* Ensure that the UI is visually appealing and responsive.
+* Implement error handling to handle any issues with API requests.
+* Test the website thoroughly to ensure proper functionality and performance.
+* Provide clear and concise documentation to guide users on how to interact with the website and understand its features.
+Note: Refer to the provided image or design specification for the desired layout and styling of the product display in a single row.
+</aside>
+
