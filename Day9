@@ -1,0 +1,61 @@
+
+Q.1 What are hooks in react? how to identify hooks?
+Answer: 
+With Hook, we can use class component	features in functional component such as state, life cycle , pure component.
+If anything start with use it means it’s Hooks.
+
+Ex: import useState
+Const [data,setData] = useState(“Anil”)
+
+
+Q.2 Explain useState Hook & what can you achieve with it?
+Answer: 
+Ex: import useState
+Const [data,setData] = useState(“Anil”)
+
+By using useState Hook we can create a state(variable) of the function component.
+
+Q.3 How to pass data from one component to another component?
+Answer: 
+We can pass the data from one component to another component using props.
+
+
+Q.4 What is the significance of the "key" prop in React lists, and why is it important to use it correctly?
+Answer: 
+We should always use “key” prop in react list bcz react uses this to compare from Virtual Dom with real Dom and it quickly update the DOM.
+
+
+Q.5 What is the significance of using "setState" instead of modifying state directly in React?
+Answer: 
+React uses this to track of it,incase we update directly react will not track it while rendering.
+
+Q.6 Explain the concept of React fragments and when you should use them.
+Answer: 
+
+A common pattern in React is for a component to return multiple elements. Fragments let you group a list of children without adding extra nodes to the DOM.
+
+Q.7 How do you handle conditional rendering in React?
+Answer: 
+Below code we use to handle the conditional rendering in React.
+Condition ? True : false
+
+
+ Q.8 Create a Simple Todo Web App with following features Using React :
+* An input button where users can type their tasks.
+* On clicking the submit button, the entered task should be displayed in the UI.
+* The UI layout should resemble the image provided. </aside>
+
+
+
+ Q. 9 Expand the existing todo web app with two additional functionalities:
+1. On clicking the "Update Status" button:
+    * Update the status of the task.
+2. On clicking the "Remove Todo" button:
+    * Remove the selected todo from the UI.
+    * Ensure that the deleted todo is no longer visible in the todo list.
+See below Image for Reference
+</aside>
+
+
+Q. 10 Build Calculator Web app using React, See below image for reference
+
